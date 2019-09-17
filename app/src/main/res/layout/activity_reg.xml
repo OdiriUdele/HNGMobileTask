@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity"
+    android:orientation="vertical"
+    android:background="@drawable/food2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="logo"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="3dp"
+        android:contentDescription="userpicture"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/fa_user"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/UsersName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColorHighlight="@color/fade"
+        android:textColor="@color/black"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/UsersEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/UsersPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Logout" />
+         />
+
+</LinearLayout>
